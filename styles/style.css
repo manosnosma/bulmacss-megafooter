@@ -1,0 +1,103 @@
+@import "../assets/bulma.min.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+* {
+	font-family: 'Open Sans', sans-serif;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+    		supported by Chrome, Edge, Opera and Firefox */
+}
+.vl {
+	border-style: solid;
+  border-width: 0px 1px 0px 0px;
+	border-color: #555555;
+}
+.ol {
+	border-style: solid;
+  border-width: 0px 0px 1px 0px;
+	border-color: #555555;
+}
+.advizor-orange { background-color: #E58D00 }
+.advizor-font-orange { color: #dd8a0d }
+.advizor-divider {
+	border-bottom: 2px solid #E58D00;
+	border-width: 5px;
+	max-width: 110px;
+	margin: auto;
+	margin-bottom: 2rem;
+}
+.advizor-divider-left { margin-left: 0 }
+.advizor-link {
+	color: #dd8a0d;
+	font-weight: bold;
+}
+.advizor-link:hover {
+	color: #dd8a0d;
+	text-decoration: underline;
+}
+.advizor-link-white {
+	color: #f2f2f2;
+	font-weight: bold;
+}
+.advizor-link-white:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.advizor-link-gray {
+	color: #b5b5b5;
+	font-weight: bold;
+}
+.advizor-link-gray:hover {
+	color: #d9d9d9;
+	text-decoration: underline;
+}
+.has-shadow-black-1px { text-shadow: 1px 1px black }
+.has-shadow-black-2px { text-shadow: 2px 2px black }
+
+/* <Footer Styles> */
+.footer-prefooter { background-image: url(../img/footer/prefooter_background.jpg) }
+.prefooter-contact-form {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover; /* Resize the background image to cover the entire container */
+	background-position: center center;
+	background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)), url(../img/footer/contact-bottom.jpg);
+}
+.prefooter-contact-form a  { color: white }
+.footer { padding: 1rem 1.5rem 1rem }
+.footer-icons { transition: 0.3s }
+.footer-icons:hover { color: #dd8a0d!important }
+/* Social Icons Hover Effect */
+.social-icons-hover-effect       { min-height: 60px      }
+.social-icons-hover-effect ul    { padding-top: 10px     }
+.social-icons-hover-effect ul li { display: inline-block }
+.social-icons-hover-effect ul li .fa-facebook,
+.social-icons-hover-effect ul li .fa-twitter,
+.social-icons-hover-effect ul li .fa-youtube,
+.social-icons-hover-effect ul li .fa-linkedin {
+	font-size: 40px;
+	color: #fff;
+	margin: 0px 5px;
+	line-height: 60px;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: #4267B2;
+	-webkit-transition: all .6s ease;
+	-moz-transition: all .6s ease;
+	-ms-transition: all .6s ease;
+	-o-transition: all .6s ease;
+	transition: all .6s ease;
+}
+.social-icons-hover-effect ul li .fa-twitter  { background: #1DA1F2 }
+.social-icons-hover-effect ul li .fa-youtube  { background: #FF0000 }
+.social-icons-hover-effect ul li .fa-linkedin { background: #0a66c2 }
+.social-icons-hover-effect ul li:hover .fa-facebook { border-radius: 50%; background: #4267B2; -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); }
+.social-icons-hover-effect ul li:hover .fa-twitter  { border-radius: 50%; background: #1DA1F2; -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); }
+.social-icons-hover-effect ul li:hover .fa-youtube  { border-radius: 50%; background: #FF0000; -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); }
+.social-icons-hover-effect ul li:hover .fa-linkedin { border-radius: 50%; background: #0a66c2; -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); }
+/* </Footer Styles> */
